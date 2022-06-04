@@ -1,17 +1,18 @@
 package com.syntax.class11;
 
-
-
 public class Dog {
-	// attributes how the object will look like
+
+	String breed;
 	String name;
 	int age;
-	double weight; //properties attributes fields
+	double weight;
 	String color;
-	double height;
-	String breed;
+	double size;
+	int lifespan;
+	String coatType;
+	String coatLength;
+	String energyLevel;
 
-	// how that object behave
 	void bark() {
 		System.out.println("Dog barks");
 	}
@@ -24,18 +25,80 @@ public class Dog {
 		System.out.println("Dogs like to eat bone");
 	}
 
-	public static void main(String[] args) {
-		// Scanner scanner = new Scanner(System.in);
-		// scanner.hasNext();
-		Dog jimmy = new Dog(); // creating an object and storing in a variable
-		jimmy.name = "Jimmy";
-		jimmy.age = 6;
-		jimmy.weight = 16;
-		jimmy.color = "black";
-		jimmy.height = 2.6;
-		jimmy.breed = "German";
-		jimmy.bark();
+	void jump() {
+		System.out.println("Dog jumps");
+	}
 
-		// new Dog() how we create an object
+	void run() {
+		System.out.println("Dog runs");
+
+	}
+	
+	void steal() {
+		System.out.println("Dog steals flip flops");
+	}
+
+	public static void main(String[] args) {
+
+		Dog husky = new Dog();
+
+		husky.breed = "Husky";
+		husky.name = "Togo";
+		husky.age = 12;
+		husky.weight = 60;
+		husky.color = "Dark Grey";
+		husky.size = 23.5;
+		husky.lifespan = 14;
+		husky.coatType = "Double";
+		husky.coatLength = "Medium";
+		husky.energyLevel = "High Energy";
+
+		husky.run();
+
+		Dog bulldog = new Dog();
+
+		bulldog.breed = "Bulldog";
+		bulldog.name = "Tillman";
+		bulldog.age = 5;
+		bulldog.weight = 50;
+		bulldog.color = "Fawn";
+		bulldog.size = 15;
+		bulldog.lifespan = 10;
+		bulldog.coatType = "Smooth";
+		bulldog.coatLength = "Short";
+		bulldog.energyLevel = "Medium Energy";
+
+		bulldog.eat();
+
+		Dog labrador = new Dog();
+
+		labrador.breed = "Labrador Retriever";
+		labrador.name = "Cora";
+		labrador.age = 4;
+		labrador.weight = 70;
+		labrador.color = "Yellow";
+		labrador.size = 23.5;
+		labrador.lifespan =12;
+		labrador.coatType="Double";
+		labrador.coatLength="Short";
+		labrador.energyLevel="High Energy";
+		
+		labrador.jump();
+		
+		Dog maltese = new Dog();
+		
+		maltese.breed = "Maltese";
+		maltese.name = "Rocky";
+		maltese.age=1;
+		maltese.weight=8.8;
+		maltese.color="White";
+		maltese.size=9;
+		maltese.lifespan=15;
+		maltese.coatType="Silky";
+		maltese.coatLength="Long";
+		maltese.energyLevel="Medium Energy";
+		
+		maltese.steal();
+
 	}
 }
