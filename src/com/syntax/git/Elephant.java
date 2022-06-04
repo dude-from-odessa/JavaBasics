@@ -13,6 +13,13 @@ public class Elephant {
 			}
 			System.out.println();
 		}
+		System.out.println();
+		for (int z = 0; z < array.length; z++) {
+			for (int b = 0; b < array[z].length; b++) {
+				System.out.print(array[z][b]+ " ");
+			}
+			System.out.println();
+		}
 
 	}
 
