@@ -35,7 +35,7 @@ public class Doggy {
 		jimmy.height = 2.6;
 		jimmy.breed = "German";
 		jimmy.bark();
-
+System.out.println(jimmy.color);
 		// new Dog() how we create an object
 	}
 }
