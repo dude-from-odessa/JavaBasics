@@ -27,7 +27,7 @@ public class SwitchIntro {
 		}
 		System.out.println(name);
 		System.out.println("-----------------");
-		switch (day) {   // dwitch is a value based statement
+		switch (day) {   // switch is a value based statement
 		case 1:
 			name = "Monday";
 			break;
