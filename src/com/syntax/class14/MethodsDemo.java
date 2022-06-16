@@ -6,7 +6,7 @@ public class MethodsDemo {
 	
 	
 	// Method is a block of code a group of java statements that are grouped together and
-	// we can execute thos statements buy just creating an object of the class that contains
+	// we can execute those statements buy just creating an object of the class that contains
 	// How : that method and by writing the objects name.method name
 	
 	
