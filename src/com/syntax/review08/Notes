@@ -1,0 +1,31 @@
+Each object has it is own copy for instance variable.
+Static is used to share for all objects.
+Static has only one copy
+Static variable should be accessed by the static way with class name.
+
+Constructor initialised the objects
+Order is matter when we are creating the constructor.
+If we don't create constructor Java creates default constructor
+When we creates the constructor, java will not create default constructor
+If to use local variable for constructor it will be not visible for object, need to use this.
+
+ this keyword - use to refer to the current object
+ this.  - used with instance variable
+        - used with methods with parent class
+ this(names of instance variables for other constructor) - used to call current class constructor
+
+                          -=METHODS=-
+  OPTIONAL             OPTIONAL              MUST      MUST
+ access modifier / non access Modifiers / returnType / name () {
+ logic;
+ }
+                        -=VARIABLES=-
+  OPTIONAL             OPTIONAL            MUST      MUST
+ access modifier / non access Modifiers / dataType   name;
+
+Static method can work with static variable but not with instance variables - rule.
+instance can work with instance and at the same time work with static
+
+Access modifiers define visibility
+
+private -> default -> protected -> public
