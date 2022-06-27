@@ -1,0 +1,7 @@
+What is PolyMorphism:
+    PolyMorphism is the ability of a method to behave differently depending upon the
+    object or parameters that we pass to a method.
+    When we pass different parameters to a method and it behaves differently then it is called.
+    static PolyMorphism or compile time PolyMorphism or early binding.
+    when we achieve the PolyMorphism through method overriding then it is called
+    dynamic binding or run time PolyMorphism or late binding
