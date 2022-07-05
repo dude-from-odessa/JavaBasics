@@ -9,6 +9,7 @@ class Animal {
     double weight;
 
     void printInfo() {
+
         System.out.println("Name " + name + " color " + color);
     }
 

@@ -16,7 +16,6 @@ public class Animal {
         this.name = name;
         this.color = color;
         this.breed = breed;
-        this.age = age;
     }
     void printInfo(){
         System.out.println("Name "+name+" color "+color+" Breed"+breed+" age "+age);
@@ -27,7 +26,7 @@ public class Animal {
 class Dog extends Animal{
 
     public Dog(String name, String color, String breed, int age){
-        // this.name=name;
+        //this.name=name;
         super(name, color, breed, age);
     }
 }
