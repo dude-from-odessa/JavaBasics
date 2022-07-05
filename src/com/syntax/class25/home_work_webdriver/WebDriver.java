@@ -1,4 +1,4 @@
-package com.syntax.class25;
+package com.syntax.class25.home_work_webdriver;
 
 public interface WebDriver {
 
