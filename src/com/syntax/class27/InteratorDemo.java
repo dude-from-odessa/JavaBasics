@@ -21,7 +21,7 @@ public class InteratorDemo {
             names.remove(name);
         }
         */
-        Iterator<String> interator = names.iterator();
+        Iterator <String> interator = names.iterator();
         while(interator.hasNext()){
             System.out.println(interator.next());
         }
