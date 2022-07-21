@@ -11,17 +11,17 @@ public class MapDemo1 {
         fruit.put("Kiwi",10.2);
         fruit.put("Banana",50.5);
         fruit.put("Apple",10.5);
-        System.out.println(fruit);
-        System.out.println(fruit.get("Kiwi"));
-        System.out.println(fruit.remove("Orange"));
-        System.out.println(fruit);
-        System.out.println(fruit.containsKey("Kiwi"));
-        System.out.println(fruit.containsValue(10.2));
-        System.out.println(fruit.isEmpty());
+        System.out.println(fruit);                          // {Apple=10.5, Kiwi=10.2, Orange=20.5, Banana=50.5}
+        System.out.println(fruit.get("Kiwi"));              // 10.2
+        System.out.println(fruit.remove("Orange"));     // 20.5
+        System.out.println(fruit);                          // {Apple=10.5, Kiwi=10.2, Banana=50.5}
+        System.out.println(fruit.containsKey("Kiwi"));      // true
+        System.out.println(fruit.containsValue(10.2));      // true
+        System.out.println(fruit.isEmpty());                // false
         fruit.replace("Kiwi",15.2);
-        System.out.println(fruit);
+        System.out.println(fruit);   // {Apple=10.5, Kiwi=15.2, Banana=50.5}
       //  fruit.put(null,null);
-        System.out.println(fruit);
+        System.out.println(fruit);   // {Apple=10.5, Kiwi=15.2, Banana=50.5}
 
     }
 }
